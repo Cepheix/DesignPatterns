@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace DesignPatterns.Construct.AbstractFactory
+{
+    public abstract class WidgetFactory
+    {
+        public abstract ScrollBar CreateScrollBar();
+        public abstract TextBox CreateTextBox();
+    }
+}
