@@ -10,7 +10,11 @@ namespace DesignPatterns.Construct.Builder
     {
         public Client()
         {
+            OrderBuilder builder = new OnlineOrderBuilder();
 
+            OrderForm form = new OrderForm(builder);
+
+            form.MakeOrder();
         }
     }
 }

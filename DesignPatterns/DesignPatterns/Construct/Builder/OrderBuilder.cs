@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Construct.Builder
 {
-    public class ASCIIConverter : TextConverter //concrete builder
+    public abstract class OrderBuilder
     {
+        public abstract void OrderStarter();
+        public abstract void OrderMain();
+        public abstract void OrderDrink();
     }
 }

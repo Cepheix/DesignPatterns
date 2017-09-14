@@ -50,13 +50,27 @@
     <Compile Include="Construct\AbstractFactory\ScrollBar.cs" />
     <Compile Include="Construct\AbstractFactory\TextBox.cs" />
     <Compile Include="Construct\AbstractFactory\WidgetFactory.cs" />
+    <Compile Include="Construct\Builder\Client.cs" />
+    <Compile Include="Construct\Builder\Drink.cs" />
+    <Compile Include="Construct\Builder\Main.cs" />
+    <Compile Include="Construct\Builder\OnlineOrderBuilder.cs" />
+    <Compile Include="Construct\Builder\Order.cs" />
+    <Compile Include="Construct\Builder\OrderBuilder.cs" />
+    <Compile Include="Construct\Builder\OrderForm.cs" />
+    <Compile Include="Construct\Builder\PhoneOrderBuilder.cs" />
+    <Compile Include="Construct\Builder\Starter.cs" />
+    <Compile Include="Construct\FactoryMethod\Client.cs" />
+    <Compile Include="Construct\FactoryMethod\Document.cs" />
+    <Compile Include="Construct\FactoryMethod\DocumentFactory.cs" />
+    <Compile Include="Construct\FactoryMethod\DocumentType.cs" />
+    <Compile Include="Construct\FactoryMethod\PdfDocument.cs" />
+    <Compile Include="Construct\FactoryMethod\StandardDocumentFactory.cs" />
+    <Compile Include="Construct\FactoryMethod\WordDocument.cs" />
     <Compile Include="Construct\Singleton\Client.cs" />
     <Compile Include="Construct\Singleton\Logger.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Construct\Builder\" />
-    <Folder Include="Construct\FactoryMethod\" />
     <Folder Include="Construct\Prototype\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
