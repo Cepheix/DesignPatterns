@@ -83,6 +83,12 @@
     <Compile Include="Structural\Adapter\Shape.cs" />
     <Compile Include="Structural\Adapter\TextShape.cs" />
     <Compile Include="Structural\Adapter\TextView.cs" />
+    <Compile Include="Structural\Bridge\IconWindow.cs" />
+    <Compile Include="Structural\Bridge\LinuxWindowImplementation.cs" />
+    <Compile Include="Structural\Bridge\MicrosoftWindowImplementation.cs" />
+    <Compile Include="Structural\Bridge\TransientWindow.cs" />
+    <Compile Include="Structural\Bridge\Window.cs" />
+    <Compile Include="Structural\Bridge\WindowImplementation.cs" />
     <Compile Include="Structural\Composite\Graphic.cs" />
     <Compile Include="Structural\Composite\Line.cs" />
     <Compile Include="Structural\Composite\NullGraphic.cs" />
@@ -110,6 +116,10 @@
     <Compile Include="Structural\Facade\Symbol.cs" />
     <Compile Include="Structural\Facade\Token.cs" />
     <Compile Include="Structural\Facade\VariableNode.cs" />
+    <Compile Include="Structural\VirtualProxy\DocumentEditor.cs" />
+    <Compile Include="Structural\VirtualProxy\Graphic.cs" />
+    <Compile Include="Structural\VirtualProxy\Image.cs" />
+    <Compile Include="Structural\VirtualProxy\ImageProxy.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
