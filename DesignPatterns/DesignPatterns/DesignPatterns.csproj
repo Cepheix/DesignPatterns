@@ -116,10 +116,16 @@
     <Compile Include="Structural\Facade\Symbol.cs" />
     <Compile Include="Structural\Facade\Token.cs" />
     <Compile Include="Structural\Facade\VariableNode.cs" />
-    <Compile Include="Structural\VirtualProxy\DocumentEditor.cs" />
-    <Compile Include="Structural\VirtualProxy\Graphic.cs" />
-    <Compile Include="Structural\VirtualProxy\Image.cs" />
-    <Compile Include="Structural\VirtualProxy\ImageProxy.cs" />
+    <Compile Include="Structural\Flyweight\Character.cs" />
+    <Compile Include="Structural\Flyweight\Column.cs" />
+    <Compile Include="Structural\Flyweight\Context.cs" />
+    <Compile Include="Structural\Flyweight\Glyph.cs" />
+    <Compile Include="Structural\Flyweight\Point.cs" />
+    <Compile Include="Structural\Flyweight\Row.cs" />
+    <Compile Include="Structural\Proxy\DocumentEditor.cs" />
+    <Compile Include="Structural\Proxy\Graphic.cs" />
+    <Compile Include="Structural\Proxy\Image.cs" />
+    <Compile Include="Structural\Proxy\ImageProxy.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
