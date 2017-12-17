@@ -6,6 +6,10 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Adapter
 {
+    /// <summary>
+    /// Adaptee
+    /// Already existing api
+    /// </summary>
     public class TextView
     {
         internal void OtherApiBoundingBox()

@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Adapter
 {
+    /// <summary>
+    /// Target interface
+    /// </summary>
     public interface Shape
     {
         void BoundingBox();

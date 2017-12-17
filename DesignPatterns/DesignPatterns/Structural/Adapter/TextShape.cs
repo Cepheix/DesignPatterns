@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Adapter
 {
+    /// <summary>
+    /// Adapter
+    /// </summary>
     public class TextShape : Shape
     {
         private readonly TextView _textView;

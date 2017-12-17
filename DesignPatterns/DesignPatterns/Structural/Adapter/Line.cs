@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Adapter
 {
+    /// <summary>
+    /// Some class implementing shape interface
+    /// </summary>
     public class Line : Shape
     {
         public void BoundingBox()
