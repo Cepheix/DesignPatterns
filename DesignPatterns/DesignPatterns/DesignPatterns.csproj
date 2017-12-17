@@ -89,6 +89,20 @@
     <Compile Include="Structural\Decorator\TextView.cs" />
     <Compile Include="Structural\Decorator\VisualComponent.cs" />
     <Compile Include="Structural\Decorator\Window.cs" />
+    <Compile Include="Structural\Facade\BytecodeStream.cs" />
+    <Compile Include="Structural\Facade\CodeGenerator.cs" />
+    <Compile Include="Structural\Facade\Compiler.cs" />
+    <Compile Include="Structural\Facade\ExpressionNode.cs" />
+    <Compile Include="Structural\Facade\Parser.cs" />
+    <Compile Include="Structural\Facade\ProgramNode.cs" />
+    <Compile Include="Structural\Facade\ProgramNodeBuilder.cs" />
+    <Compile Include="Structural\Facade\Scanner.cs" />
+    <Compile Include="Structural\Facade\StackMachineCodeGenerator.cs" />
+    <Compile Include="Structural\Facade\StatementNode.cs" />
+    <Compile Include="Structural\Facade\Stream.cs" />
+    <Compile Include="Structural\Facade\Symbol.cs" />
+    <Compile Include="Structural\Facade\Token.cs" />
+    <Compile Include="Structural\Facade\VariableNode.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
