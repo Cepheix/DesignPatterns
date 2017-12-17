@@ -83,6 +83,12 @@
     <Compile Include="Structural\Adapter\Shape.cs" />
     <Compile Include="Structural\Adapter\TextShape.cs" />
     <Compile Include="Structural\Adapter\TextView.cs" />
+    <Compile Include="Structural\Decorator\BorderDecorator.cs" />
+    <Compile Include="Structural\Decorator\Decorator.cs" />
+    <Compile Include="Structural\Decorator\ScrollDecorator.cs" />
+    <Compile Include="Structural\Decorator\TextView.cs" />
+    <Compile Include="Structural\Decorator\VisualComponent.cs" />
+    <Compile Include="Structural\Decorator\Window.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
