@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Decorator
 {
+    /// <summary>
+    /// Decorator that adds a border to a given window
+    /// </summary>
     public class BorderDecorator : Decorator
     {
         public BorderDecorator(VisualComponent component) : base(component)

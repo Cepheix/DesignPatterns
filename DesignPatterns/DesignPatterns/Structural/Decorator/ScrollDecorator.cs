@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Decorator
 {
+    /// <summary>
+    /// A decorator that adds a scrool to the given window
+    /// </summary>
     public class ScrollDecorator : Decorator
     {
         public ScrollDecorator(VisualComponent component) : base(component)

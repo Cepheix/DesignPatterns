@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Decorator
 {
+    /// <summary>
+    /// An interface to be decorated
+    /// </summary>
     public interface VisualComponent
     {
         void Draw();

@@ -1,16 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Structural.Decorator
+﻿namespace DesignPatterns.Structural.Decorator
 {
+    /// <summary>
+    /// The base decorator class
+    /// </summary>
     public abstract class Decorator : VisualComponent
     {
         private readonly VisualComponent _component;
 
-        public Decorator(VisualComponent component)
+        protected Decorator(VisualComponent component)
         {
             this._component = component;
         }

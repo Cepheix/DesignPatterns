@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Structural.Decorator
 {
+    /// <summary>
+    /// Some concrete class that implements interface
+    /// </summary>
     public class TextView : VisualComponent
     {
         public void Draw()
