@@ -83,6 +83,12 @@
     <Compile Include="Structural\Adapter\Shape.cs" />
     <Compile Include="Structural\Adapter\TextShape.cs" />
     <Compile Include="Structural\Adapter\TextView.cs" />
+    <Compile Include="Structural\Composite\Graphic.cs" />
+    <Compile Include="Structural\Composite\Line.cs" />
+    <Compile Include="Structural\Composite\NullGraphic.cs" />
+    <Compile Include="Structural\Composite\Picture.cs" />
+    <Compile Include="Structural\Composite\Rectangle.cs" />
+    <Compile Include="Structural\Composite\Text.cs" />
     <Compile Include="Structural\Decorator\BorderDecorator.cs" />
     <Compile Include="Structural\Decorator\Decorator.cs" />
     <Compile Include="Structural\Decorator\ScrollDecorator.cs" />
@@ -93,6 +99,7 @@
     <Compile Include="Structural\Facade\CodeGenerator.cs" />
     <Compile Include="Structural\Facade\Compiler.cs" />
     <Compile Include="Structural\Facade\ExpressionNode.cs" />
+    <Compile Include="Structural\Facade\InputStream.cs" />
     <Compile Include="Structural\Facade\Parser.cs" />
     <Compile Include="Structural\Facade\ProgramNode.cs" />
     <Compile Include="Structural\Facade\ProgramNodeBuilder.cs" />

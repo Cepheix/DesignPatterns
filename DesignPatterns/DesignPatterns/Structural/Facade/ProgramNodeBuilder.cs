@@ -31,5 +31,10 @@ namespace DesignPatterns.Structural.Facade
             // do calculation
             return this._node;
         }
+
+        internal ProgramNode GetRootNode()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

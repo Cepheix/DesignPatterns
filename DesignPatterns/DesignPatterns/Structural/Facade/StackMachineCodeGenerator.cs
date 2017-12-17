@@ -8,6 +8,13 @@ namespace DesignPatterns.Structural.Facade
 {
     public class StackMachineCodeGenerator : CodeGenerator
     {
+        private BytecodeStream output;
+
+        public StackMachineCodeGenerator(BytecodeStream output)
+        {
+            this.output = output;
+        }
+
         protected override void Visit(StatementNode statementNode)
         {
             throw new NotImplementedException();

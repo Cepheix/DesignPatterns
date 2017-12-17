@@ -10,5 +10,10 @@ namespace DesignPatterns.Structural.Facade
     {
         private Token _token;
         private Symbol _symbol;
+
+        internal void Traverse(StackMachineCodeGenerator generator)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
