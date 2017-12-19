@@ -151,6 +151,14 @@
     <Compile Include="Structural\Flyweight\Glyph.cs" />
     <Compile Include="Structural\Flyweight\Point.cs" />
     <Compile Include="Structural\Flyweight\Row.cs" />
+    <Compile Include="Structural\Observer\Application.cs" />
+    <Compile Include="Structural\Observer\BarChart.cs" />
+    <Compile Include="Structural\Observer\Chart.cs" />
+    <Compile Include="Structural\Observer\DataModel.cs" />
+    <Compile Include="Structural\Observer\Observer.cs" />
+    <Compile Include="Structural\Observer\PieChart.cs" />
+    <Compile Include="Structural\Observer\Subject.cs" />
+    <Compile Include="Structural\Observer\Table.cs" />
     <Compile Include="Structural\Proxy\DocumentEditor.cs" />
     <Compile Include="Structural\Proxy\Graphic.cs" />
     <Compile Include="Structural\Proxy\Image.cs" />
