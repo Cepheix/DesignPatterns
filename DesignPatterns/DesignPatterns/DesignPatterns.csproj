@@ -115,6 +115,11 @@
     <Compile Include="Operation\Memento\ConstraintSolverMemento.cs" />
     <Compile Include="Operation\Memento\ConstraintSolverState.cs" />
     <Compile Include="Operation\Memento\MoveCommand.cs" />
+    <Compile Include="Operation\State\TCPClosed.cs" />
+    <Compile Include="Operation\State\TCPConnection.cs" />
+    <Compile Include="Operation\State\TCPEstablished.cs" />
+    <Compile Include="Operation\State\TCPListen.cs" />
+    <Compile Include="Operation\State\TCPState.cs" />
     <Compile Include="Operation\TemplateMethod\Application.cs" />
     <Compile Include="Operation\TemplateMethod\Document.cs" />
     <Compile Include="Operation\TemplateMethod\PdfDocument.cs" />
@@ -184,7 +189,6 @@
     <Compile Include="Structural\Proxy\ImageProxy.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Operation\State\" />
     <Folder Include="Operation\Strategy\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
