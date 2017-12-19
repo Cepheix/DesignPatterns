@@ -120,6 +120,12 @@
     <Compile Include="Operation\State\TCPEstablished.cs" />
     <Compile Include="Operation\State\TCPListen.cs" />
     <Compile Include="Operation\State\TCPState.cs" />
+    <Compile Include="Operation\Strategy\ArrayCompositor.cs" />
+    <Compile Include="Operation\Strategy\Client.cs" />
+    <Compile Include="Operation\Strategy\Composition.cs" />
+    <Compile Include="Operation\Strategy\Compositor.cs" />
+    <Compile Include="Operation\Strategy\SimpleCompositor.cs" />
+    <Compile Include="Operation\Strategy\TeXCompositor.cs" />
     <Compile Include="Operation\TemplateMethod\Application.cs" />
     <Compile Include="Operation\TemplateMethod\Document.cs" />
     <Compile Include="Operation\TemplateMethod\PdfDocument.cs" />
@@ -188,9 +194,7 @@
     <Compile Include="Structural\Proxy\Image.cs" />
     <Compile Include="Structural\Proxy\ImageProxy.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Operation\Strategy\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
