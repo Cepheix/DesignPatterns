@@ -103,6 +103,9 @@
     <Compile Include="Operation\Mediator\FontDialogDirector.cs" />
     <Compile Include="Operation\Mediator\ListBox.cs" />
     <Compile Include="Operation\Mediator\Widget.cs" />
+    <Compile Include="Operation\TemplateMethod\Application.cs" />
+    <Compile Include="Operation\TemplateMethod\Document.cs" />
+    <Compile Include="Operation\TemplateMethod\PdfDocument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Structural\Adapter\DrawingEditor.cs" />
     <Compile Include="Structural\Adapter\Line.cs" />
