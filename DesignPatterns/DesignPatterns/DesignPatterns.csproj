@@ -84,6 +84,13 @@
     <Compile Include="Operation\ChainOfResponsibility\HelpHandler.cs" />
     <Compile Include="Operation\ChainOfResponsibility\Tooltip.cs" />
     <Compile Include="Operation\ChainOfResponsibility\Widget.cs" />
+    <Compile Include="Operation\Command\Application.cs" />
+    <Compile Include="Operation\Command\Command.cs" />
+    <Compile Include="Operation\Command\Document.cs" />
+    <Compile Include="Operation\Command\Menu.cs" />
+    <Compile Include="Operation\Command\MenuItem.cs" />
+    <Compile Include="Operation\Command\OpenCommand.cs" />
+    <Compile Include="Operation\Command\PasteCommand.cs" />
     <Compile Include="Operation\Interpreter\AlternationExpression.cs" />
     <Compile Include="Operation\Interpreter\Document.cs" />
     <Compile Include="Operation\Interpreter\LiteralExpression.cs" />
@@ -176,7 +183,10 @@
     <Compile Include="Structural\Proxy\Image.cs" />
     <Compile Include="Structural\Proxy\ImageProxy.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Operation\State\" />
+    <Folder Include="Operation\Strategy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
