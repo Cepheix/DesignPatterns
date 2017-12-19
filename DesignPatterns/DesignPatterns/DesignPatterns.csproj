@@ -103,6 +103,11 @@
     <Compile Include="Operation\Mediator\FontDialogDirector.cs" />
     <Compile Include="Operation\Mediator\ListBox.cs" />
     <Compile Include="Operation\Mediator\Widget.cs" />
+    <Compile Include="Operation\Memento\Constraint.cs" />
+    <Compile Include="Operation\Memento\ConstraintSolver.cs" />
+    <Compile Include="Operation\Memento\ConstraintSolverMemento.cs" />
+    <Compile Include="Operation\Memento\ConstraintSolverState.cs" />
+    <Compile Include="Operation\Memento\MoveCommand.cs" />
     <Compile Include="Operation\TemplateMethod\Application.cs" />
     <Compile Include="Operation\TemplateMethod\Document.cs" />
     <Compile Include="Operation\TemplateMethod\PdfDocument.cs" />
