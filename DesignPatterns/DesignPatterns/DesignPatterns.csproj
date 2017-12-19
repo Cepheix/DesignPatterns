@@ -77,6 +77,13 @@
     <Compile Include="Construct\Prototype\WholeNote.cs" />
     <Compile Include="Construct\Singleton\Client.cs" />
     <Compile Include="Construct\Singleton\Logger.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\Application.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\Button.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\Dialog.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\HandlerBase.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\HelpHandler.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\Tooltip.cs" />
+    <Compile Include="Operation\ChainOfResponsibility\Widget.cs" />
     <Compile Include="Operation\Interpreter\AlternationExpression.cs" />
     <Compile Include="Operation\Interpreter\Document.cs" />
     <Compile Include="Operation\Interpreter\LiteralExpression.cs" />
